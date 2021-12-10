@@ -1,12 +1,11 @@
-import React from "react";
 import styles from './styles/main.scss';
 import Hero from './components/hero/hero.js';
 
-function App() {
+const MOUNT_NODE = document.getElementById('root');
+
+const App = () => {
     return (
-      <Fragment>
-        <Hero label="This is a Hero"/>
-      </Fragment>
+      <div>Hero</div>
     );
 }
 
